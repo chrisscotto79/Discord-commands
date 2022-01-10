@@ -119,7 +119,7 @@ client.on('message', message => {
                         });
     }
 
-    //-Finds and retrievs the stock from yahoo------------------------------------//
+    //-Finds and retrieves the stock from yahoo API------------------------------------//
     if(cmd === 'stock'){
       console.log('Stock message in use')
       async function stock(){
